@@ -1,41 +1,1444 @@
 [
-  {"q": "All my life, there was a voice softly whispering in my ear: Live, live, live. It was death.", "a": "Jaime Sabines", "tags": ["Wisdom", "Resilience"]},
-  {"q": "An unexamined life is not worth living.", "a": "Socrates", "tags": ["Wisdom", "Learning"]},
-  {"q": "Because reality is f*cked up.", "a": "Guillermo del Toro", "tags": ["Wisdom"]},
-  {"q": "Do what you can, with what you have, where you are.", "a": "Theodore Roosevelt", "tags": ["Motivation"]},
-  {"q": "Dream big and dare to fail.", "a": "Norman Vaughan", "tags": ["Motivation", "Resilience"]},
-  {"q": "Everything you've ever wanted is on the other side of fear.", "a": "George Addair", "tags": ["Resilience"]},
-  {"q": "Go confidently in the direction of your dreams.", "a": "Henry David Thoreau", "tags": ["Motivation"]},
-  {"q": "I feel that if you're able to entertain, you're doing a good thing.", "a": "Stan Lee", "tags": ["Creativity", "Work"]},
-  {"q": "I have no special talents. I am only passionately curious.", "a": "Albert Einstein", "tags": ["Curiosity", "Learning"]},
-  {"q": "I've always been my biggest fan.", "a": "Stan Lee", "tags": ["Motivation"]},
-  {"q": "If you are interested in what you do, that keeps you going!", "a": "Stan Lee", "tags": ["Work", "Creativity"]},
-  {"q": "In the middle of every difficulty lies opportunity.", "a": "Albert Einstein", "tags": ["Resilience"]},
-  {"q": "In the midst of winter, I found there was, within me, an invincible summer.", "a": "Albert Camus", "tags": ["Resilience", "Wisdom"]},
-  {"q": "It always seems impossible until it's done.", "a": "Nelson Mandela", "tags": ["Resilience"]},
-  {"q": "Life is 10% what happens to me and 90% how I react to it.", "a": "Charles Swindoll", "tags": ["Resilience", "Focus"]},
-  {"q": "Life is what happens when you're busy making other plans.", "a": "John Lennon", "tags": ["Wisdom"]},
-  {"q": "Simplicity is prerequisite for reliability.", "a": "Edsger W. Dijkstra", "tags": ["Engineering"]},
-  {"q": "Spread love everywhere you go.", "a": "Mother Teresa", "tags": ["Wisdom"]},
-  {"q": "Strive not to be a success, but rather to be of value.", "a": "Albert Einstein", "tags": ["Work", "Wisdom"]},
-  {"q": "The best time to plant a tree was 20 years ago. The second best time is now.", "a": "Chinese Proverb", "tags": ["Motivation", "Wisdom"]},
-  {"q": "The best way to predict the future is to invent it.", "a": "Alan Kay", "tags": ["Engineering", "Creativity"]},
-  {"q": "The first principle is that you must not fool yourself, and you are the easiest person to fool.", "a": "Richard Feynman", "tags": ["Engineering", "Learning"]},
-  {"q": "The future belongs to those who believe in the beauty of their dreams.", "a": "Eleanor Roosevelt", "tags": ["Motivation"]},
-  {"q": "The mind is everything. What you think you become.", "a": "Buddha", "tags": ["Focus", "Wisdom"]},
-  {"q": "The most dangerous phrase in the language is 'We've always done it this way.'", "a": "Grace Hopper", "tags": ["Engineering", "Work"]},
-  {"q": "The most difficult thing is the decision to act; the rest is merely tenacity.", "a": "Amelia Earhart", "tags": ["Focus", "Resilience"]},
-  {"q": "The only person you are destined to become is the person you decide to be.", "a": "Ralph Waldo Emerson", "tags": ["Learning", "Motivation"]},
-  {"q": "The only way to do great work is to love what you do.", "a": "Steve Jobs", "tags": ["Work"]},
-  {"q": "The secret of getting ahead is getting started.", "a": "Mark Twain", "tags": ["Motivation", "Work"]},
-  {"q": "The world is cruel no matter what day you wake up... there is something beautiful and something terrible happening at the same time.", "a": "Guillermo del Toro", "tags": ["Wisdom", "Resilience"]},
-  {"q": "To heal trauma one must have the courage to return to the time and place it happened.", "a": "Glenn Close", "tags": ["Resilience"]},
-  {"q": "Upward and onward to greater glory!", "a": "Stan Lee", "tags": ["Motivation", "Creativity"]},
-  {"q": "We are a way for the cosmos to know itself.", "a": "Carl Sagan", "tags": ["Curiosity", "Wisdom"]},
-  {"q": "We suffer more often in imagination than in reality.", "a": "Seneca", "tags": ["Resilience", "Wisdom", "Focus"]},
-  {"q": "What stands in the way becomes the way.", "a": "Marcus Aurelius", "tags": ["Resilience", "Wisdom"]},
-  {"q": "With great power there must also come great responsibility.", "a": "Stan Lee", "tags": ["Wisdom"]},
-  {"q": "You can only know yourself, so be true to that. Please yourself.", "a": "Stan Lee", "tags": ["Wisdom", "Creativity"]},
-  {"q": "You miss 100% of the shots you don't take.", "a": "Wayne Gretzky", "tags": ["Motivation"]},
-  {"q": "You must be the change you wish to see in the world.", "a": "Mahatma Gandhi", "tags": ["Wisdom"]}
+  {
+    "q": "A good bookshop is just a genteel Black Hole that knows how to read.",
+    "a": "Terry Pratchett",
+    "tags": [
+      "Humor",
+      "Learning"
+    ]
+  },
+  {
+    "q": "A journey of a thousand miles begins with a single step.",
+    "a": "Lao Tzu",
+    "tags": [
+      "Motivation",
+      "Wisdom"
+    ]
+  },
+  {
+    "q": "A language that doesn't affect the way you think about programming is not worth knowing.",
+    "a": "Alan Perlis",
+    "tags": [
+      "Engineering",
+      "Learning"
+    ]
+  },
+  {
+    "q": "A man who dares to waste one hour of time has not discovered the value of life.",
+    "a": "Charles Darwin",
+    "tags": [
+      "Focus",
+      "Wisdom"
+    ]
+  },
+  {
+    "q": "A problem is a chance for you to do your best.",
+    "a": "Duke Ellington",
+    "tags": [
+      "Art",
+      "Resilience"
+    ]
+  },
+  {
+    "q": "A woman must have money and a room of her own if she is to write fiction.",
+    "a": "Virginia Woolf",
+    "tags": [
+      "Art",
+      "Wisdom"
+    ]
+  },
+  {
+    "q": "Adding manpower to a late software project makes it later.",
+    "a": "Fred Brooks",
+    "tags": [
+      "Engineering",
+      "Humor"
+    ]
+  },
+  {
+    "q": "All my life, there was a voice softly whispering in my ear: Live, live, live. It was death.",
+    "a": "Jaime Sabines",
+    "tags": [
+      "Wisdom",
+      "Resilience"
+    ]
+  },
+  {
+    "q": "All we have to decide is what to do with the time that is given us.",
+    "a": "J. R. R. Tolkien",
+    "tags": [
+      "Wisdom",
+      "Focus"
+    ]
+  },
+  {
+    "q": "Almost everything will work again if you unplug it for a few minutes, including you.",
+    "a": "Anne Lamott",
+    "tags": [
+      "Humor",
+      "Wisdom"
+    ]
+  },
+  {
+    "q": "Alone we can do so little; together we can do so much.",
+    "a": "Helen Keller",
+    "tags": [
+      "Kindness",
+      "Work"
+    ]
+  },
+  {
+    "q": "An unexamined life is not worth living.",
+    "a": "Socrates",
+    "tags": [
+      "Wisdom",
+      "Learning"
+    ]
+  },
+  {
+    "q": "Any sufficiently advanced technology is indistinguishable from magic.",
+    "a": "Arthur C. Clarke",
+    "tags": [
+      "Engineering",
+      "Curiosity"
+    ]
+  },
+  {
+    "q": "Anything that's human is mentionable, and anything that is mentionable can be more manageable.",
+    "a": "Fred Rogers",
+    "tags": [
+      "Kindness",
+      "Wisdom"
+    ]
+  },
+  {
+    "q": "Art is not what you see, but what you make others see.",
+    "a": "Edgar Degas",
+    "tags": [
+      "Art",
+      "Creativity"
+    ]
+  },
+  {
+    "q": "Be kind whenever possible. It is always possible.",
+    "a": "Dalai Lama",
+    "tags": [
+      "Kindness"
+    ]
+  },
+  {
+    "q": "Because reality is f*cked up.",
+    "a": "Guillermo del Toro",
+    "tags": [
+      "Wisdom"
+    ]
+  },
+  {
+    "q": "Chance favors only the prepared mind.",
+    "a": "Louis Pasteur",
+    "tags": [
+      "Learning",
+      "Focus"
+    ]
+  },
+  {
+    "q": "Courage is grace under pressure.",
+    "a": "Ernest Hemingway",
+    "tags": [
+      "Courage"
+    ]
+  },
+  {
+    "q": "Courage is resistance to fear, mastery of fear, not absence of fear.",
+    "a": "Mark Twain",
+    "tags": [
+      "Courage"
+    ]
+  },
+  {
+    "q": "Darkness cannot drive out darkness; only light can do that.",
+    "a": "Martin Luther King Jr.",
+    "tags": [
+      "Courage",
+      "Kindness"
+    ]
+  },
+  {
+    "q": "Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that.",
+    "a": "Martin Luther King Jr.",
+    "tags": [
+      "Kindness",
+      "Courage"
+    ]
+  },
+  {
+    "q": "Do the best you can until you know better. Then when you know better, do better.",
+    "a": "Maya Angelou",
+    "tags": [
+      "Learning",
+      "Wisdom"
+    ]
+  },
+  {
+    "q": "Do what you can, with what you have, where you are.",
+    "a": "Theodore Roosevelt",
+    "tags": [
+      "Motivation"
+    ]
+  },
+  {
+    "q": "Don't let what you cannot do interfere with what you can do.",
+    "a": "John Wooden",
+    "tags": [
+      "Focus",
+      "Motivation"
+    ]
+  },
+  {
+    "q": "Doubt is not a pleasant condition, but certainty is absurd.",
+    "a": "Voltaire",
+    "tags": [
+      "Wisdom"
+    ]
+  },
+  {
+    "q": "Dream big and dare to fail.",
+    "a": "Norman Vaughan",
+    "tags": [
+      "Motivation",
+      "Resilience"
+    ]
+  },
+  {
+    "q": "Eighty percent of success is showing up.",
+    "a": "Woody Allen",
+    "tags": [
+      "Work",
+      "Motivation"
+    ]
+  },
+  {
+    "q": "Every child is an artist. The problem is how to remain an artist once we grow up.",
+    "a": "Pablo Picasso",
+    "tags": [
+      "Art",
+      "Creativity"
+    ]
+  },
+  {
+    "q": "Everyone knows that debugging is twice as hard as writing a program in the first place.",
+    "a": "Brian Kernighan",
+    "tags": [
+      "Engineering",
+      "Humor"
+    ]
+  },
+  {
+    "q": "Everyone thinks of changing the world, but no one thinks of changing himself.",
+    "a": "Leo Tolstoy",
+    "tags": [
+      "Wisdom"
+    ]
+  },
+  {
+    "q": "Everything can be taken from a man but one thing: the last of the human freedoms, to choose one's attitude in any given set of circumstances.",
+    "a": "Viktor Frankl",
+    "tags": [
+      "Resilience",
+      "Wisdom"
+    ]
+  },
+  {
+    "q": "Everything you've ever wanted is on the other side of fear.",
+    "a": "George Addair",
+    "tags": [
+      "Resilience"
+    ]
+  },
+  {
+    "q": "Excelsior!",
+    "a": "Stan Lee",
+    "tags": [
+      "Motivation",
+      "Creativity"
+    ]
+  },
+  {
+    "q": "Excuse my dust.",
+    "a": "Dorothy Parker",
+    "tags": [
+      "Humor"
+    ]
+  },
+  {
+    "q": "Experience is the name everyone gives to their mistakes.",
+    "a": "Oscar Wilde",
+    "tags": [
+      "Humor",
+      "Wisdom"
+    ]
+  },
+  {
+    "q": "Extraordinary claims require extraordinary evidence.",
+    "a": "Carl Sagan",
+    "tags": [
+      "Curiosity",
+      "Learning"
+    ]
+  },
+  {
+    "q": "Failure is not fatal, but failure to change might be.",
+    "a": "John Wooden",
+    "tags": [
+      "Resilience",
+      "Learning"
+    ]
+  },
+  {
+    "q": "Fall seven times, stand up eight.",
+    "a": "Japanese Proverb",
+    "tags": [
+      "Resilience",
+      "Motivation"
+    ]
+  },
+  {
+    "q": "Fish and visitors stink in three days.",
+    "a": "Benjamin Franklin",
+    "tags": [
+      "Humor"
+    ]
+  },
+  {
+    "q": "Genius is one percent inspiration and ninety-nine percent perspiration.",
+    "a": "Thomas Edison",
+    "tags": [
+      "Work",
+      "Creativity"
+    ]
+  },
+  {
+    "q": "Get your facts first, then you can distort them as you please.",
+    "a": "Mark Twain",
+    "tags": [
+      "Humor"
+    ]
+  },
+  {
+    "q": "Go confidently in the direction of your dreams.",
+    "a": "Henry David Thoreau",
+    "tags": [
+      "Motivation"
+    ]
+  },
+  {
+    "q": "Great things are done by a series of small things brought together.",
+    "a": "Vincent van Gogh",
+    "tags": [
+      "Work",
+      "Art"
+    ]
+  },
+  {
+    "q": "Happiness is not something ready made. It comes from your own actions.",
+    "a": "Dalai Lama",
+    "tags": [
+      "Wisdom"
+    ]
+  },
+  {
+    "q": "Hatred does not cease by hatred, but only by love; this is the eternal rule.",
+    "a": "Buddha",
+    "tags": [
+      "Kindness",
+      "Wisdom"
+    ]
+  },
+  {
+    "q": "He who has a why to live can bear almost any how.",
+    "a": "Friedrich Nietzsche",
+    "tags": [
+      "Resilience",
+      "Wisdom"
+    ]
+  },
+  {
+    "q": "Hope is itself a species of happiness, and, perhaps, the chief happiness which this world affords.",
+    "a": "Samuel Johnson",
+    "tags": [
+      "Wisdom",
+      "Resilience"
+    ]
+  },
+  {
+    "q": "How wonderful it is that nobody need wait a single moment before starting to improve the world.",
+    "a": "Anne Frank",
+    "tags": [
+      "Kindness",
+      "Motivation"
+    ]
+  },
+  {
+    "q": "Humor is just another defense against the universe.",
+    "a": "Mel Brooks",
+    "tags": [
+      "Humor",
+      "Wisdom"
+    ]
+  },
+  {
+    "q": "I attribute my success to this: I never gave or took any excuse.",
+    "a": "Florence Nightingale",
+    "tags": [
+      "Work",
+      "Focus"
+    ]
+  },
+  {
+    "q": "I can resist everything except temptation.",
+    "a": "Oscar Wilde",
+    "tags": [
+      "Humor"
+    ]
+  },
+  {
+    "q": "I declare after all there is no enjoyment like reading!",
+    "a": "Jane Austen",
+    "tags": [
+      "Learning",
+      "Humor"
+    ]
+  },
+  {
+    "q": "I don't want to belong to any club that would accept me as one of its members.",
+    "a": "Groucho Marx",
+    "tags": [
+      "Humor"
+    ]
+  },
+  {
+    "q": "I feel that if you're able to entertain, you're doing a good thing.",
+    "a": "Stan Lee",
+    "tags": [
+      "Creativity",
+      "Work"
+    ]
+  },
+  {
+    "q": "I have learned over the years that when one's mind is made up, this diminishes fear.",
+    "a": "Rosa Parks",
+    "tags": [
+      "Courage"
+    ]
+  },
+  {
+    "q": "I have no special talents. I am only passionately curious.",
+    "a": "Albert Einstein",
+    "tags": [
+      "Curiosity",
+      "Learning"
+    ]
+  },
+  {
+    "q": "I intend to live forever. So far, so good.",
+    "a": "Steven Wright",
+    "tags": [
+      "Humor"
+    ]
+  },
+  {
+    "q": "I learned that courage was not the absence of fear, but the triumph over it.",
+    "a": "Nelson Mandela",
+    "tags": [
+      "Courage"
+    ]
+  },
+  {
+    "q": "I think, therefore I am.",
+    "a": "René Descartes",
+    "tags": [
+      "Wisdom"
+    ]
+  },
+  {
+    "q": "I told you I was ill.",
+    "a": "Spike Milligan",
+    "tags": [
+      "Humor"
+    ]
+  },
+  {
+    "q": "I write entirely to find out what I'm thinking.",
+    "a": "Joan Didion",
+    "tags": [
+      "Art",
+      "Learning"
+    ]
+  },
+  {
+    "q": "I'd far rather be happy than right any day.",
+    "a": "Douglas Adams",
+    "tags": [
+      "Humor",
+      "Wisdom"
+    ]
+  },
+  {
+    "q": "I'd take the awe of understanding over the awe of ignorance any day.",
+    "a": "Douglas Adams",
+    "tags": [
+      "Curiosity",
+      "Wisdom"
+    ]
+  },
+  {
+    "q": "I'm sick of following my dreams, man. I'm just going to ask where they're going and hook up with 'em later.",
+    "a": "Mitch Hedberg",
+    "tags": [
+      "Humor"
+    ]
+  },
+  {
+    "q": "I've always been my biggest fan.",
+    "a": "Stan Lee",
+    "tags": [
+      "Motivation"
+    ]
+  },
+  {
+    "q": "I've failed over and over and over again in my life. And that is why I succeed.",
+    "a": "Michael Jordan",
+    "tags": [
+      "Resilience"
+    ]
+  },
+  {
+    "q": "If I have seen further it is by standing on the shoulders of giants.",
+    "a": "Isaac Newton",
+    "tags": [
+      "Curiosity",
+      "Learning"
+    ]
+  },
+  {
+    "q": "If I have seen further, it is by standing on the shoulders of giants.",
+    "a": "Isaac Newton",
+    "tags": [
+      "Learning",
+      "Wisdom"
+    ]
+  },
+  {
+    "q": "If there is no struggle, there is no progress.",
+    "a": "Frederick Douglass",
+    "tags": [
+      "Resilience",
+      "Motivation"
+    ]
+  },
+  {
+    "q": "If there's a book that you want to read, but it hasn't been written yet, then you must write it.",
+    "a": "Toni Morrison",
+    "tags": [
+      "Art",
+      "Creativity"
+    ]
+  },
+  {
+    "q": "If this isn't nice, what is?",
+    "a": "Kurt Vonnegut",
+    "tags": [
+      "Humor",
+      "Kindness"
+    ]
+  },
+  {
+    "q": "If you are interested in what you do, that keeps you going!",
+    "a": "Stan Lee",
+    "tags": [
+      "Work",
+      "Creativity"
+    ]
+  },
+  {
+    "q": "If you don't like something, change it. If you can't change it, change your attitude.",
+    "a": "Maya Angelou",
+    "tags": [
+      "Resilience",
+      "Wisdom"
+    ]
+  },
+  {
+    "q": "If you have a garden and a library, you have everything you need.",
+    "a": "Cicero",
+    "tags": [
+      "Learning",
+      "Wisdom"
+    ]
+  },
+  {
+    "q": "Imagination is more important than knowledge.",
+    "a": "Albert Einstein",
+    "tags": [
+      "Creativity",
+      "Curiosity"
+    ]
+  },
+  {
+    "q": "In the middle of every difficulty lies opportunity.",
+    "a": "Albert Einstein",
+    "tags": [
+      "Resilience"
+    ]
+  },
+  {
+    "q": "In the midst of winter, I found there was, within me, an invincible summer.",
+    "a": "Albert Camus",
+    "tags": [
+      "Resilience",
+      "Wisdom"
+    ]
+  },
+  {
+    "q": "In three words I can sum up everything I've learned about life: it goes on.",
+    "a": "Robert Frost",
+    "tags": [
+      "Resilience",
+      "Wisdom"
+    ]
+  },
+  {
+    "q": "Inspiration is for amateurs; the rest of us just show up and get to work.",
+    "a": "Chuck Close",
+    "tags": [
+      "Art",
+      "Work"
+    ]
+  },
+  {
+    "q": "It always seems impossible until it's done.",
+    "a": "Nelson Mandela",
+    "tags": [
+      "Resilience"
+    ]
+  },
+  {
+    "q": "It does not matter how slowly you go as long as you do not stop.",
+    "a": "Confucius",
+    "tags": [
+      "Motivation",
+      "Resilience"
+    ]
+  },
+  {
+    "q": "It is good to have an end to journey toward; but it is the journey that matters, in the end.",
+    "a": "Ursula K. Le Guin",
+    "tags": [
+      "Wisdom",
+      "Motivation"
+    ]
+  },
+  {
+    "q": "It is hard to fail, but it is worse never to have tried to succeed.",
+    "a": "Theodore Roosevelt",
+    "tags": [
+      "Courage",
+      "Motivation"
+    ]
+  },
+  {
+    "q": "It is never difficult to distinguish between a Scotsman with a grievance and a ray of sunshine.",
+    "a": "P. G. Wodehouse",
+    "tags": [
+      "Humor"
+    ]
+  },
+  {
+    "q": "It is not death that a man should fear, but he should fear never beginning to live.",
+    "a": "Marcus Aurelius",
+    "tags": [
+      "Wisdom",
+      "Courage"
+    ]
+  },
+  {
+    "q": "It is not that we have a short time to live, but that we waste a lot of it.",
+    "a": "Seneca",
+    "tags": [
+      "Wisdom",
+      "Focus"
+    ]
+  },
+  {
+    "q": "It is not that we have a short time to live, but that we waste much of it.",
+    "a": "Seneca",
+    "tags": [
+      "Focus",
+      "Wisdom"
+    ]
+  },
+  {
+    "q": "It is not the mountain we conquer, but ourselves.",
+    "a": "Edmund Hillary",
+    "tags": [
+      "Courage",
+      "Motivation"
+    ]
+  },
+  {
+    "q": "It is not their pain you are afraid of, it's yours. And as frightening as it may be, that pain will make you stronger, if you allow yourself to feel it, embrace it. It will make you more powerful than you ever imagined. It's the greatest gift we have, to bear their pain without breaking. And it's born from the most human power: hope.",
+    "a": "Patrick Stewart",
+    "tags": [
+      "Resilience",
+      "Courage",
+      "Wisdom"
+    ]
+  },
+  {
+    "q": "It is only with the heart that one can see rightly; what is essential is invisible to the eye.",
+    "a": "Antoine de Saint-Exupéry",
+    "tags": [
+      "Wisdom"
+    ]
+  },
+  {
+    "q": "It's kind of fun to do the impossible.",
+    "a": "Walt Disney",
+    "tags": [
+      "Motivation",
+      "Creativity"
+    ]
+  },
+  {
+    "q": "It's not what happens to you, but how you react to it that matters.",
+    "a": "Epictetus",
+    "tags": [
+      "Resilience",
+      "Wisdom"
+    ]
+  },
+  {
+    "q": "It's not what you look at that matters, it's what you see.",
+    "a": "Henry David Thoreau",
+    "tags": [
+      "Focus",
+      "Wisdom"
+    ]
+  },
+  {
+    "q": "Life can only be understood backwards; but it must be lived forwards.",
+    "a": "Søren Kierkegaard",
+    "tags": [
+      "Wisdom"
+    ]
+  },
+  {
+    "q": "Life is 10% what happens to me and 90% how I react to it.",
+    "a": "Charles Swindoll",
+    "tags": [
+      "Resilience",
+      "Focus"
+    ]
+  },
+  {
+    "q": "Life is a tragedy when seen in close-up, but a comedy in long-shot.",
+    "a": "Charlie Chaplin",
+    "tags": [
+      "Humor",
+      "Wisdom"
+    ]
+  },
+  {
+    "q": "Life is either a daring adventure or nothing at all.",
+    "a": "Helen Keller",
+    "tags": [
+      "Courage",
+      "Motivation"
+    ]
+  },
+  {
+    "q": "Life is not easy for any of us. But what of that? We must have perseverance and above all confidence in ourselves.",
+    "a": "Marie Curie",
+    "tags": [
+      "Resilience",
+      "Motivation"
+    ]
+  },
+  {
+    "q": "Life is what happens when you're busy making other plans.",
+    "a": "John Lennon",
+    "tags": [
+      "Wisdom"
+    ]
+  },
+  {
+    "q": "Make good art.",
+    "a": "Neil Gaiman",
+    "tags": [
+      "Art",
+      "Creativity"
+    ]
+  },
+  {
+    "q": "Make it work, make it right, make it fast.",
+    "a": "Kent Beck",
+    "tags": [
+      "Engineering",
+      "Focus"
+    ]
+  },
+  {
+    "q": "Men are disturbed not by things, but by the views which they take of them.",
+    "a": "Epictetus",
+    "tags": [
+      "Resilience",
+      "Wisdom"
+    ]
+  },
+  {
+    "q": "Never let your sense of morals prevent you from doing what is right.",
+    "a": "Isaac Asimov",
+    "tags": [
+      "Wisdom",
+      "Humor"
+    ]
+  },
+  {
+    "q": "No act of kindness, no matter how small, is ever wasted.",
+    "a": "Aesop",
+    "tags": [
+      "Kindness"
+    ]
+  },
+  {
+    "q": "No one is useless in this world who lightens the burden of another.",
+    "a": "Charles Dickens",
+    "tags": [
+      "Kindness"
+    ]
+  },
+  {
+    "q": "Nothing great was ever achieved without enthusiasm.",
+    "a": "Ralph Waldo Emerson",
+    "tags": [
+      "Motivation",
+      "Work"
+    ]
+  },
+  {
+    "q": "Nothing in life is to be feared, it is only to be understood.",
+    "a": "Marie Curie",
+    "tags": [
+      "Courage",
+      "Learning"
+    ]
+  },
+  {
+    "q": "Nothing will work unless you do.",
+    "a": "Maya Angelou",
+    "tags": [
+      "Work",
+      "Motivation"
+    ]
+  },
+  {
+    "q": "One child, one teacher, one book, one pen can change the world.",
+    "a": "Malala Yousafzai",
+    "tags": [
+      "Learning",
+      "Motivation"
+    ]
+  },
+  {
+    "q": "Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.",
+    "a": "Antoine de Saint-Exupéry",
+    "tags": [
+      "Art",
+      "Engineering"
+    ]
+  },
+  {
+    "q": "Perfection is not attainable, but if we chase perfection we can catch excellence.",
+    "a": "Vince Lombardi",
+    "tags": [
+      "Work",
+      "Motivation"
+    ]
+  },
+  {
+    "q": "Premature optimization is the root of all evil.",
+    "a": "Donald Knuth",
+    "tags": [
+      "Engineering"
+    ]
+  },
+  {
+    "q": "Programs must be written for people to read, and only incidentally for machines to execute.",
+    "a": "Harold Abelson",
+    "tags": [
+      "Engineering"
+    ]
+  },
+  {
+    "q": "Reality is frequently inaccurate.",
+    "a": "Douglas Adams",
+    "tags": [
+      "Humor"
+    ]
+  },
+  {
+    "q": "Say yes, and you'll figure it out afterwards.",
+    "a": "Tina Fey",
+    "tags": [
+      "Courage",
+      "Motivation"
+    ]
+  },
+  {
+    "q": "Simplicity is prerequisite for reliability.",
+    "a": "Edsger W. Dijkstra",
+    "tags": [
+      "Engineering"
+    ]
+  },
+  {
+    "q": "Spread love everywhere you go.",
+    "a": "Mother Teresa",
+    "tags": [
+      "Wisdom"
+    ]
+  },
+  {
+    "q": "Stay hungry. Stay foolish.",
+    "a": "Steve Jobs",
+    "tags": [
+      "Curiosity",
+      "Motivation"
+    ]
+  },
+  {
+    "q": "Strive not to be a success, but rather to be of value.",
+    "a": "Albert Einstein",
+    "tags": [
+      "Work",
+      "Wisdom"
+    ]
+  },
+  {
+    "q": "Talk is cheap. Show me the code.",
+    "a": "Linus Torvalds",
+    "tags": [
+      "Engineering",
+      "Work"
+    ]
+  },
+  {
+    "q": "That brain of mine is something more than merely mortal; as time will show.",
+    "a": "Ada Lovelace",
+    "tags": [
+      "Engineering",
+      "Humor"
+    ]
+  },
+  {
+    "q": "That's one small step for man, one giant leap for mankind.",
+    "a": "Neil Armstrong",
+    "tags": [
+      "Curiosity",
+      "Motivation"
+    ]
+  },
+  {
+    "q": "The beginning is the most important part of the work.",
+    "a": "Plato",
+    "tags": [
+      "Motivation"
+    ]
+  },
+  {
+    "q": "The best time to plant a tree was 20 years ago. The second best time is now.",
+    "a": "Chinese Proverb",
+    "tags": [
+      "Motivation",
+      "Wisdom"
+    ]
+  },
+  {
+    "q": "The best way to predict the future is to invent it.",
+    "a": "Alan Kay",
+    "tags": [
+      "Engineering",
+      "Creativity"
+    ]
+  },
+  {
+    "q": "The cosmos is within us. We are made of star-stuff.",
+    "a": "Carl Sagan",
+    "tags": [
+      "Curiosity",
+      "Wisdom"
+    ]
+  },
+  {
+    "q": "The first principle is that you must not fool yourself, and you are the easiest person to fool.",
+    "a": "Richard Feynman",
+    "tags": [
+      "Engineering",
+      "Learning"
+    ]
+  },
+  {
+    "q": "The fundamental cause of the trouble is that in the modern world the stupid are cocksure while the intelligent are full of doubt.",
+    "a": "Bertrand Russell",
+    "tags": [
+      "Wisdom"
+    ]
+  },
+  {
+    "q": "The future belongs to those who believe in the beauty of their dreams.",
+    "a": "Eleanor Roosevelt",
+    "tags": [
+      "Motivation"
+    ]
+  },
+  {
+    "q": "The important thing is not to stop questioning.",
+    "a": "Albert Einstein",
+    "tags": [
+      "Curiosity",
+      "Learning"
+    ]
+  },
+  {
+    "q": "The journey of a thousand miles begins with a single step.",
+    "a": "Lao Tzu",
+    "tags": [
+      "Motivation",
+      "Wisdom"
+    ]
+  },
+  {
+    "q": "The mind is everything. What you think you become.",
+    "a": "Buddha",
+    "tags": [
+      "Focus",
+      "Wisdom"
+    ]
+  },
+  {
+    "q": "The most dangerous phrase in the language is 'We've always done it this way.'",
+    "a": "Grace Hopper",
+    "tags": [
+      "Engineering",
+      "Work"
+    ]
+  },
+  {
+    "q": "The most difficult thing is the decision to act; the rest is merely tenacity.",
+    "a": "Amelia Earhart",
+    "tags": [
+      "Focus",
+      "Resilience"
+    ]
+  },
+  {
+    "q": "The most wasted of all days is one without laughter.",
+    "a": "Nicolas Chamfort",
+    "tags": [
+      "Humor",
+      "Wisdom"
+    ]
+  },
+  {
+    "q": "The mystery of human existence lies not in just staying alive, but in finding something to live for.",
+    "a": "Fyodor Dostoevsky",
+    "tags": [
+      "Wisdom",
+      "Resilience"
+    ]
+  },
+  {
+    "q": "The only limit to our realization of tomorrow will be our doubts of today.",
+    "a": "Franklin D. Roosevelt",
+    "tags": [
+      "Motivation",
+      "Courage"
+    ]
+  },
+  {
+    "q": "The only person you are destined to become is the person you decide to be.",
+    "a": "Ralph Waldo Emerson",
+    "tags": [
+      "Learning",
+      "Motivation"
+    ]
+  },
+  {
+    "q": "The only thing we have to fear is fear itself.",
+    "a": "Franklin D. Roosevelt",
+    "tags": [
+      "Courage",
+      "Resilience"
+    ]
+  },
+  {
+    "q": "The only way to do great work is to love what you do.",
+    "a": "Steve Jobs",
+    "tags": [
+      "Work"
+    ]
+  },
+  {
+    "q": "The perfect is the enemy of the good.",
+    "a": "Voltaire",
+    "tags": [
+      "Work",
+      "Wisdom"
+    ]
+  },
+  {
+    "q": "The price of anything is the amount of life you exchange for it.",
+    "a": "Henry David Thoreau",
+    "tags": [
+      "Wisdom",
+      "Focus"
+    ]
+  },
+  {
+    "q": "The question of whether machines can think is about as relevant as the question of whether submarines can swim.",
+    "a": "Edsger W. Dijkstra",
+    "tags": [
+      "Engineering",
+      "Humor"
+    ]
+  },
+  {
+    "q": "The scariest moment is always just before you start.",
+    "a": "Stephen King",
+    "tags": [
+      "Art",
+      "Courage"
+    ]
+  },
+  {
+    "q": "The secret of getting ahead is getting started.",
+    "a": "Mark Twain",
+    "tags": [
+      "Motivation",
+      "Work"
+    ]
+  },
+  {
+    "q": "The struggle itself toward the heights is enough to fill a man's heart. One must imagine Sisyphus happy.",
+    "a": "Albert Camus",
+    "tags": [
+      "Resilience",
+      "Wisdom"
+    ]
+  },
+  {
+    "q": "The trouble with having an open mind, of course, is that people will insist on coming along and trying to put things in it.",
+    "a": "Terry Pratchett",
+    "tags": [
+      "Humor",
+      "Learning"
+    ]
+  },
+  {
+    "q": "The weak can never forgive. Forgiveness is the attribute of the strong.",
+    "a": "Mahatma Gandhi",
+    "tags": [
+      "Kindness",
+      "Wisdom"
+    ]
+  },
+  {
+    "q": "The world breaks everyone and afterward many are strong at the broken places.",
+    "a": "Ernest Hemingway",
+    "tags": [
+      "Resilience"
+    ]
+  },
+  {
+    "q": "The world is cruel no matter what day you wake up... there is something beautiful and something terrible happening at the same time.",
+    "a": "Guillermo del Toro",
+    "tags": [
+      "Wisdom",
+      "Resilience"
+    ]
+  },
+  {
+    "q": "There is no charm equal to tenderness of heart.",
+    "a": "Jane Austen",
+    "tags": [
+      "Kindness"
+    ]
+  },
+  {
+    "q": "Those who don't believe in magic will never find it.",
+    "a": "Roald Dahl",
+    "tags": [
+      "Creativity",
+      "Curiosity"
+    ]
+  },
+  {
+    "q": "Time is an illusion. Lunchtime doubly so.",
+    "a": "Douglas Adams",
+    "tags": [
+      "Humor"
+    ]
+  },
+  {
+    "q": "To be able to fill leisure intelligently is the last product of civilization.",
+    "a": "Bertrand Russell",
+    "tags": [
+      "Wisdom"
+    ]
+  },
+  {
+    "q": "To heal trauma one must have the courage to return to the time and place it happened.",
+    "a": "Glenn Close",
+    "tags": [
+      "Resilience"
+    ]
+  },
+  {
+    "q": "To live is the rarest thing in the world. Most people exist, that is all.",
+    "a": "Oscar Wilde",
+    "tags": [
+      "Wisdom"
+    ]
+  },
+  {
+    "q": "To love oneself is the beginning of a lifelong romance.",
+    "a": "Oscar Wilde",
+    "tags": [
+      "Wisdom"
+    ]
+  },
+  {
+    "q": "To see what is in front of one's nose needs a constant struggle.",
+    "a": "George Orwell",
+    "tags": [
+      "Focus",
+      "Wisdom"
+    ]
+  },
+  {
+    "q": "Upward and onward to greater glory!",
+    "a": "Stan Lee",
+    "tags": [
+      "Motivation",
+      "Creativity"
+    ]
+  },
+  {
+    "q": "Waste no more time arguing about what a good man should be. Be one.",
+    "a": "Marcus Aurelius",
+    "tags": [
+      "Wisdom",
+      "Kindness"
+    ]
+  },
+  {
+    "q": "We are a way for the cosmos to know itself.",
+    "a": "Carl Sagan",
+    "tags": [
+      "Curiosity",
+      "Wisdom"
+    ]
+  },
+  {
+    "q": "We are what we pretend to be, so we must be careful about what we pretend to be.",
+    "a": "Kurt Vonnegut",
+    "tags": [
+      "Wisdom"
+    ]
+  },
+  {
+    "q": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
+    "a": "Will Durant",
+    "tags": [
+      "Focus",
+      "Work"
+    ]
+  },
+  {
+    "q": "We can only see a short distance ahead, but we can see plenty there that needs to be done.",
+    "a": "Alan Turing",
+    "tags": [
+      "Engineering",
+      "Motivation"
+    ]
+  },
+  {
+    "q": "We choose to go to the Moon in this decade and do the other things, not because they are easy, but because they are hard.",
+    "a": "John F. Kennedy",
+    "tags": [
+      "Courage",
+      "Motivation"
+    ]
+  },
+  {
+    "q": "We have to jump off the cliff all the time and build our wings on the way down.",
+    "a": "Ray Bradbury",
+    "tags": [
+      "Courage",
+      "Creativity"
+    ]
+  },
+  {
+    "q": "We suffer more often in imagination than in reality.",
+    "a": "Seneca",
+    "tags": [
+      "Resilience",
+      "Wisdom",
+      "Focus"
+    ]
+  },
+  {
+    "q": "Well done is better than well said.",
+    "a": "Benjamin Franklin",
+    "tags": [
+      "Work",
+      "Focus"
+    ]
+  },
+  {
+    "q": "What I cannot create, I do not understand.",
+    "a": "Richard Feynman",
+    "tags": [
+      "Engineering",
+      "Learning"
+    ]
+  },
+  {
+    "q": "What stands in the way becomes the way.",
+    "a": "Marcus Aurelius",
+    "tags": [
+      "Resilience",
+      "Wisdom"
+    ]
+  },
+  {
+    "q": "What would life be if we had no courage to attempt anything?",
+    "a": "Vincent van Gogh",
+    "tags": [
+      "Courage",
+      "Art"
+    ]
+  },
+  {
+    "q": "What you do makes a difference, and you have to decide what kind of difference you want to make.",
+    "a": "Jane Goodall",
+    "tags": [
+      "Motivation",
+      "Kindness"
+    ]
+  },
+  {
+    "q": "When I was a kid my parents moved a lot, but I always found them.",
+    "a": "Rodney Dangerfield",
+    "tags": [
+      "Humor"
+    ]
+  },
+  {
+    "q": "When one door closes, another opens; but we often look so long and so regretfully upon the closed door that we do not see the one which has opened for us.",
+    "a": "Alexander Graham Bell",
+    "tags": [
+      "Resilience",
+      "Wisdom"
+    ]
+  },
+  {
+    "q": "When we are no longer able to change a situation, we are challenged to change ourselves.",
+    "a": "Viktor Frankl",
+    "tags": [
+      "Resilience",
+      "Wisdom"
+    ]
+  },
+  {
+    "q": "When you come to a fork in the road, take it.",
+    "a": "Yogi Berra",
+    "tags": [
+      "Humor"
+    ]
+  },
+  {
+    "q": "Wherever the art of medicine is loved, there is also a love of humanity.",
+    "a": "Hippocrates",
+    "tags": [
+      "Kindness"
+    ]
+  },
+  {
+    "q": "With great power there must also come great responsibility.",
+    "a": "Stan Lee",
+    "tags": [
+      "Wisdom"
+    ]
+  },
+  {
+    "q": "You can observe a lot by watching.",
+    "a": "Yogi Berra",
+    "tags": [
+      "Humor",
+      "Learning"
+    ]
+  },
+  {
+    "q": "You can only know yourself, so be true to that. Please yourself.",
+    "a": "Stan Lee",
+    "tags": [
+      "Wisdom",
+      "Creativity"
+    ]
+  },
+  {
+    "q": "You can't have everything. Where would you put it?",
+    "a": "Steven Wright",
+    "tags": [
+      "Humor"
+    ]
+  },
+  {
+    "q": "You miss 100% of the shots you don't take.",
+    "a": "Wayne Gretzky",
+    "tags": [
+      "Motivation"
+    ]
+  },
+  {
+    "q": "You must be the change you wish to see in the world.",
+    "a": "Mahatma Gandhi",
+    "tags": [
+      "Wisdom"
+    ]
+  },
+  {
+    "q": "You must do the thing you think you cannot do.",
+    "a": "Eleanor Roosevelt",
+    "tags": [
+      "Courage"
+    ]
+  },
+  {
+    "q": "You must stay drunk on writing so reality cannot destroy you.",
+    "a": "Ray Bradbury",
+    "tags": [
+      "Art",
+      "Creativity"
+    ]
+  },
+  {
+    "q": "Your time is limited, so don't waste it living someone else's life.",
+    "a": "Steve Jobs",
+    "tags": [
+      "Motivation",
+      "Wisdom"
+    ]
+  }
 ]
