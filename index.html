@@ -76,56 +76,84 @@
   </div>
 </div>
 <script>
-const fallback = [
+// Last-resort quotes, used only if quotes.json cannot be loaded.
+const FALLBACK = [
   ["The secret of getting ahead is getting started.", "Mark Twain"],
   ["It always seems impossible until it's done.", "Nelson Mandela"],
-  ["In the middle of every difficulty lies opportunity.", "Albert Einstein"],
   ["Do what you can, with what you have, where you are.", "Theodore Roosevelt"],
-  ["The only way to do great work is to love what you do.", "Steve Jobs"],
-  ["Life is what happens when you're busy making other plans.", "John Lennon"],
-  ["The future belongs to those who believe in the beauty of their dreams.", "Eleanor Roosevelt"],
-  ["Spread love everywhere you go.", "Mother Teresa"],
   ["The best time to plant a tree was 20 years ago. The second best time is now.", "Chinese Proverb"],
-  ["You must be the change you wish to see in the world.", "Mahatma Gandhi"],
-  ["The mind is everything. What you think you become.", "Buddha"],
-  ["Strive not to be a success, but rather to be of value.", "Albert Einstein"],
-  ["You miss 100% of the shots you don't take.", "Wayne Gretzky"],
-  ["The most difficult thing is the decision to act; the rest is merely tenacity.", "Amelia Earhart"],
-  ["Go confidently in the direction of your dreams.", "Henry David Thoreau"],
-  ["Everything you've ever wanted is on the other side of fear.", "George Addair"],
-  ["Dream big and dare to fail.", "Norman Vaughan"],
   ["An unexamined life is not worth living.", "Socrates"],
-  ["Life is 10% what happens to me and 90% how I react to it.", "Charles Swindoll"],
-  ["The only person you are destined to become is the person you decide to be.", "Ralph Waldo Emerson"],
-];
+].map(([q, a]) => ({ q, a }));
+
+let quotes = null;          // loaded once, then reused
+let currentIdx = -1;
 let current = { text: '', author: '' };
-async function loadQuote() {
+
+async function getQuotes() {
+  if (quotes) return quotes;
+  try {
+    // no-cache: revalidate with the server so new quotes show up quickly
+    const res = await fetch('quotes.json', { cache: 'no-cache' });
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const list = await res.json();
+    if (!Array.isArray(list) || list.length === 0) throw new Error('empty');
+    quotes = list;
+  } catch {
+    quotes = FALLBACK;
+  }
+  return quotes;
+}
+
+// Same date -> same index, so the "daily" quote is stable across reloads.
+// FNV-1a hash of the local date string, mod list length.
+function dayIndex(n) {
+  const d = new Date();
+  const key = d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate();
+  let h = 2166136261;
+  for (const c of key) {
+    h ^= c.charCodeAt(0);
+    h = Math.imul(h, 16777619);
+  }
+  return (h >>> 0) % n;
+}
+
+function randomIndex(n) {
+  let i;
+  do { i = Math.floor(Math.random() * n); } while (n > 1 && i === currentIdx);
+  return i;
+}
+
+async function showQuote(daily) {
   const q = document.getElementById('quote');
   const a = document.getElementById('author');
   q.classList.add('fade'); a.classList.add('fade');
   await new Promise(r => setTimeout(r, 250));
-  try {
-    const res = await fetch('https://api.quotable.io/random?maxLength=120&minLength=30');
-    if (!res.ok) throw new Error();
-    const d = await res.json();
-    current = { text: '\u201c' + d.content + '\u201d', author: d.author };
-  } catch {
-    const p = fallback[Math.floor(Math.random() * fallback.length)];
-    current = { text: '\u201c' + p[0] + '\u201d', author: p[1] };
-  }
+  const list = await getQuotes();
+  currentIdx = daily ? dayIndex(list.length) : randomIndex(list.length);
+  const p = list[currentIdx];
+  current = { text: '“' + p.q + '”', author: p.a };
   q.textContent = current.text;
-  a.textContent = '\u2014 ' + current.author;
+  a.textContent = '— ' + current.author;
   q.classList.remove('fade'); a.classList.remove('fade');
 }
-function newQuote() { loadQuote(); }
+
+function newQuote() { showQuote(false); }
+
 function copyQuote() {
-  navigator.clipboard.writeText(current.text + ' \u2014 ' + current.author);
   const btn = document.getElementById('copyBtn');
-  btn.textContent = 'Copied!';
-  btn.classList.add('success');
-  setTimeout(() => { btn.textContent = 'Copy'; btn.classList.remove('success'); }, 2000);
+  navigator.clipboard.writeText(current.text + ' — ' + current.author)
+    .then(() => {
+      btn.textContent = 'Copied!';
+      btn.classList.add('success');
+    })
+    .catch(() => { btn.textContent = 'Copy failed'; })
+    .finally(() => setTimeout(() => {
+      btn.textContent = 'Copy';
+      btn.classList.remove('success');
+    }, 2000));
 }
-loadQuote();
+
+showQuote(true);
 </script>
 </body>
 </html>
