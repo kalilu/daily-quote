@@ -84,7 +84,7 @@
     "a": "Helen Keller",
     "tags": [
       "Kindness",
-      "Work"
+      "Motivation"
     ]
   },
   {
@@ -139,6 +139,14 @@
     "tags": [
       "Learning",
       "Focus"
+    ]
+  },
+  {
+    "q": "Concentrate all your thoughts upon the work at hand. The sun's rays do not burn until brought to a focus.",
+    "a": "Alexander Graham Bell",
+    "tags": [
+      "Focus",
+      "Work"
     ]
   },
   {
@@ -210,11 +218,27 @@
     ]
   },
   {
+    "q": "Education is the most powerful weapon which you can use to change the world.",
+    "a": "Nelson Mandela",
+    "tags": [
+      "Learning",
+      "Motivation"
+    ]
+  },
+  {
     "q": "Eighty percent of success is showing up.",
     "a": "Woody Allen",
     "tags": [
       "Work",
       "Motivation"
+    ]
+  },
+  {
+    "q": "Every artist was first an amateur.",
+    "a": "Ralph Waldo Emerson",
+    "tags": [
+      "Art",
+      "Learning"
     ]
   },
   {
@@ -335,8 +359,8 @@
     "q": "Great things are done by a series of small things brought together.",
     "a": "Vincent van Gogh",
     "tags": [
-      "Work",
-      "Art"
+      "Art",
+      "Work"
     ]
   },
   {
@@ -379,11 +403,34 @@
     ]
   },
   {
+    "q": "However difficult life may seem, there is always something you can do and succeed at.",
+    "a": "Stephen Hawking",
+    "tags": [
+      "Resilience",
+      "Motivation"
+    ]
+  },
+  {
     "q": "Humor is just another defense against the universe.",
     "a": "Mel Brooks",
     "tags": [
       "Humor",
       "Wisdom"
+    ]
+  },
+  {
+    "q": "I am not afraid of storms, for I am learning how to sail my ship.",
+    "a": "Louisa May Alcott",
+    "tags": [
+      "Courage",
+      "Learning"
+    ]
+  },
+  {
+    "q": "I am so clever that sometimes I don't understand a single word of what I am saying.",
+    "a": "Oscar Wilde",
+    "tags": [
+      "Humor"
     ]
   },
   {
@@ -450,7 +497,8 @@
     "q": "I learned that courage was not the absence of fear, but the triumph over it.",
     "a": "Nelson Mandela",
     "tags": [
-      "Courage"
+      "Courage",
+      "Resilience"
     ]
   },
   {
@@ -577,6 +625,14 @@
     ]
   },
   {
+    "q": "If you want to go fast, go alone. If you want to go far, go together.",
+    "a": "African Proverb",
+    "tags": [
+      "Wisdom",
+      "Work"
+    ]
+  },
+  {
     "q": "Imagination is more important than knowledge.",
     "a": "Albert Einstein",
     "tags": [
@@ -628,6 +684,14 @@
     "tags": [
       "Motivation",
       "Resilience"
+    ]
+  },
+  {
+    "q": "It is better to be hated for what you are than to be loved for what you are not.",
+    "a": "André Gide",
+    "tags": [
+      "Courage",
+      "Wisdom"
     ]
   },
   {
@@ -757,6 +821,14 @@
     ]
   },
   {
+    "q": "Life is like riding a bicycle. To keep your balance, you must keep moving.",
+    "a": "Albert Einstein",
+    "tags": [
+      "Motivation",
+      "Wisdom"
+    ]
+  },
+  {
     "q": "Life is not easy for any of us. But what of that? We must have perseverance and above all confidence in ourselves.",
     "a": "Marie Curie",
     "tags": [
@@ -768,6 +840,14 @@
     "q": "Life is what happens when you're busy making other plans.",
     "a": "John Lennon",
     "tags": [
+      "Wisdom"
+    ]
+  },
+  {
+    "q": "Look up at the stars and not down at your feet.",
+    "a": "Stephen Hawking",
+    "tags": [
+      "Curiosity",
       "Wisdom"
     ]
   },
@@ -815,6 +895,14 @@
     "a": "Charles Dickens",
     "tags": [
       "Kindness"
+    ]
+  },
+  {
+    "q": "Not everything that is faced can be changed, but nothing can be changed until it is faced.",
+    "a": "James Baldwin",
+    "tags": [
+      "Courage",
+      "Resilience"
     ]
   },
   {
@@ -929,7 +1017,7 @@
     "a": "Linus Torvalds",
     "tags": [
       "Engineering",
-      "Work"
+      "Humor"
     ]
   },
   {
@@ -1002,6 +1090,14 @@
     ]
   },
   {
+    "q": "The good thing about science is that it's true whether or not you believe in it.",
+    "a": "Neil deGrasse Tyson",
+    "tags": [
+      "Curiosity",
+      "Engineering"
+    ]
+  },
+  {
     "q": "The important thing is not to stop questioning.",
     "a": "Albert Einstein",
     "tags": [
@@ -1023,6 +1119,14 @@
     "tags": [
       "Focus",
       "Wisdom"
+    ]
+  },
+  {
+    "q": "The mind is not a vessel to be filled, but a fire to be kindled.",
+    "a": "Plutarch",
+    "tags": [
+      "Learning",
+      "Curiosity"
     ]
   },
   {
@@ -1234,11 +1338,18 @@
     ]
   },
   {
+    "q": "Walking on water and developing software from a specification are easy if both are frozen.",
+    "a": "Edward V. Berard",
+    "tags": [
+      "Engineering",
+      "Humor"
+    ]
+  },
+  {
     "q": "Waste no more time arguing about what a good man should be. Be one.",
     "a": "Marcus Aurelius",
     "tags": [
-      "Wisdom",
-      "Kindness"
+      "Wisdom"
     ]
   },
   {
@@ -1302,7 +1413,7 @@
     "a": "Benjamin Franklin",
     "tags": [
       "Work",
-      "Focus"
+      "Wisdom"
     ]
   },
   {
@@ -1311,6 +1422,15 @@
     "tags": [
       "Engineering",
       "Learning"
+    ]
+  },
+  {
+    "q": "What is grief, if not love persevering?",
+    "a": "Paul Bettany (WandaVision)",
+    "tags": [
+      "Wisdom",
+      "Kindness",
+      "Resilience"
     ]
   },
   {
@@ -1402,6 +1522,20 @@
     "a": "Steven Wright",
     "tags": [
       "Humor"
+    ]
+  },
+  {
+    "q": "You can't use up creativity. The more you use, the more you have.",
+    "a": "Maya Angelou",
+    "tags": [
+      "Creativity"
+    ]
+  },
+  {
+    "q": "You may encounter many defeats, but you must not be defeated.",
+    "a": "Maya Angelou",
+    "tags": [
+      "Resilience"
     ]
   },
   {
